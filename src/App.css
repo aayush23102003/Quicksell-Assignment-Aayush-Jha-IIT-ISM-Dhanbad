@@ -1,0 +1,138 @@
+.kanban-board{
+  background-color: #f4f5f8;
+}
+
+/* KANBAN FILTER HEADER CSS */
+
+.filter-options{
+  /* border: 1px solid red; */
+  padding: 1.5em 2em;
+  position: relative;
+  
+}
+
+.filter-options-card{
+  border-radius: 5px;
+  box-shadow: #0000003d 0px 3px 8px;
+  width: max-content;
+  /* border: 1px solid #0000003d; */
+  padding: 0.5em 1em;
+  display: flex;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.filter-dropdown{
+  /* border: 1px solid red; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 0.5em;
+  padding: 1em 1em;
+  width: 300px;
+  box-shadow: #0000003d 0px 3px 8px;
+  border-radius: 10px;
+  top: 90%;
+  left: 2%;
+}
+
+.filter-row{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* KANBAN COLUMN CSS */
+
+.kanban-board-title{
+  text-align: left;
+  /* border: 1px solid red; */
+  width: 100%;
+  /* padding: 0 1em; */
+  text-transform: capitalize;
+}
+
+
+/* CARD CSS */
+
+.kanban-card{
+  /* border: 1px solid red; */
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: #0000003d 0px 3px 8px;
+  padding: 1em;
+  height: 200px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-ticket-id{
+  color: #6b6f76;   
+  font-weight: 500;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-ticket-name{
+  letter-spacing: 1px;
+  margin: 0.5em 0;
+}
+
+.card-tag{
+  border-radius: 5px;
+  color: #5c5f63; 
+  border: 1px solid #0000003d;
+  width: max-content;
+  padding: 0.25em 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  margin-top: auto;
+  /* margin-bottom: auto; */
+}
+
+.card-tag-circle{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  background-color: #bec2c8;
+}
+
+.card-user-icon{
+  /* border: 1px solid red; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 88, 210);
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+
+/* COLUMN CARD */
+
+.kanban-board{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding: 1em 0.5em;
+}
+.kanban-column{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+}
