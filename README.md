@@ -1,6 +1,7 @@
-# Link to my Personal Github account- "https://github.com/aayush2310"
-
 # Aayush Jha - IIT ISM Dhanbad
+
+## Link to my Personal Github account- "https://github.com/aayush2310"
+
 
 # Getting Started with Create React App
 
