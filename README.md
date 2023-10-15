@@ -1,3 +1,7 @@
+# Link to my Personal Github account- "https://github.com/aayush2310"
+
+# Aayush Jha - IIT ISM Dhanbad
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
